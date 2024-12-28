@@ -1,0 +1,101 @@
+* {
+    font-family: 'poppins', sans-serif;
+    /* estilo da font */
+    margin: 0;
+    /* fazendo reset */
+    padding: 0;
+    /* fazendo reset */
+    box-sizing: border-box;
+    /* estilo das div, header, main */
+}
+
+header {
+    /* configuração da posição do menu */
+    margin: 47px 0px 144px 42px;
+}
+
+.link-header {
+    /* configuração de todas as opções do menu */
+    font-weight: 400;
+    /* fonte mais fina ou mais grossa */
+    font-size: 24px;
+    /* tamanho da fonte */
+    line-height: 29px;
+    /* altura da linha */
+    color: #989d9c;
+    /* cor das opções no menu */
+    cursor: pointer;
+    /* a mãozinha na hora que o mouse passar por cima */
+    margin-right: 32px;
+    /* distanciamento das opções no menu */
+}
+
+.button-header {
+    background: #6FBF44;
+    border-radius: 6px;
+    width: 124px;
+    /* altura - esticar (zoom) pra cima*/
+    height: 51px;
+    /* largura - esticar (zoom) para os lados*/
+    border: 1px solid #4cb538;
+    /* retirar bordas */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+    /* para controlar o tamanho da imagem posicionando ela ao lado de outra imagem ou seção */
+}
+
+section {
+    display: inline-block;
+    margin-left: 125px;
+    width: 492px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+    color: #161a49;
+    letter-spacing: 0.596154px;
+}
+
+p {
+    font-weight: 400;
+    /* grossura das letras */
+    font-size: 18px;
+    /* tamanho das letras */
+    line-height: 33px;
+    /* distanciamento das linhas */
+    color: #848484;
+    /* cor */
+    /* altura */
+    margin-top: 47px;
+    /* distanciamento do texto de cima */
+    margin-bottom: 55px;
+    /* distaniamento do texto de baixo */
+}
+
+.link-main {
+    width: 232px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0, 25));
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    color: #6FBF44;
+
+}
+
+@media screen and (max-width: 900px) {}
